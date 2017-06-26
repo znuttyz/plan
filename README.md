@@ -1,4 +1,4 @@
-# Ref: [Draggable Background](https://github.com/kentor/jquery-draggable-background)
+### Ref: [Draggable Background](https://github.com/kentor/jquery-draggable-background)
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
