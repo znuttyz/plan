@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Card, CardSection, Header, SearchbarIOS }  from './elements/';
+import { Card, CardSection, Header, SearchbarIOS, ImageBackground }  from './elements/';
 
 export default class Home extends Component {
 	render() {
@@ -8,6 +8,7 @@ export default class Home extends Component {
 			<View >
 				<Header headerText="Home znuttyz"/>
 				<SearchbarIOS />
+				<ImageBackground />
 			</View>
 		);
 	}
