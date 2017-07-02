@@ -1,14 +1,10 @@
 import React from 'react';
 import { View, Image } from 'react-native';
+import ZoomableImage from '../assets/scripts/ZoomableImage';
 
 const ImageBackground = (props) => {
   return (
-    <View>
-    	<Image
-          style={{width: 500, height: 500}}
-          source={{uri: '../assets/star.jpg'}}
-        />
-    </View>
+    <ZoomableImage imageWidth={300} imageHeight={300} source={require('../assets/images/star.jpg')}/>
   );
 };
 

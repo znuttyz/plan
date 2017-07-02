@@ -6,9 +6,8 @@ export default class Home extends Component {
 	render() {
 		return (
 			<View >
-				<Header headerText="Home Oumho"/>
+				<Header headerText="Home Nutty"/>
 				<SearchbarIOS />
-				<ImageBackground />
 			</View>
 		);
 	}
