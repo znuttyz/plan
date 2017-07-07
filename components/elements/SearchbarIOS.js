@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, View, Text, Keyboard } from 'react-native';
+import { TextInput, View, Text, Keyboard } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 
